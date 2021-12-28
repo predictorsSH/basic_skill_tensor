@@ -1,9 +1,9 @@
-#BSIC_SKILL_TENSOR
+# BASIC_SKILL_TENSOR
 ___
 
 딥러닝 모델 개발은 텐서를 잘 다루는게 중요한데, 그 능력이 부족해서 생성한 레포 <br>
 
-##contents
+## contents
 
 ---
 주로 tensor manipulation 연습을 위한 repo입니다. <br>
