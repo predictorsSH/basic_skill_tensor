@@ -1,4 +1,5 @@
 # BASIC_SKILL_TENSOR
+
 ___
 
 딥러닝 모델 개발은 텐서를 잘 다루는게 중요한데, 그 능력이 부족해서 생성한 레포 <br>
@@ -13,4 +14,5 @@ ___
 - pytorch를 활용한 tensor manpipulation
 - tensorflow 예제 풀이
 - loss fuction이나 특정 layer에서 이루어지는 연산을 실습 
+- 커스터마이징된 loss fuction 또는 layer를 모델에 적용
 
