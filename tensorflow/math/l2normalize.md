@@ -10,7 +10,7 @@ l2_normalize는 L2 norm을 사용해서 구한 벡터의 크기를 가지고 데
 ___
 ## L2 Norm
 
-![L2](.\img\l2_norm.PNG)
+![L2](./img/l2_norm.PNG)
 
 각 성분의 제곱의 합을 루트로 씌워준 값으로, 유클리디안 norm이라고도 부른다.
 
