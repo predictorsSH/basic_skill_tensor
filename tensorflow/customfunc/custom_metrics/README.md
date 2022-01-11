@@ -53,5 +53,5 @@ ___
 ![recall](../img/recall.PNG)<br>
   실제 참인 데이터중 참이라고 탐지한 데이터의 비율
 - f1 score<br>  
-![f1 score](../img/f1-score.PNG)
+![f1 score](../img/f1-score.PNG) <br>
   recall과 precision의 조화평균
