@@ -127,7 +127,7 @@ class CustomImageDataset(Dataset):
 
 ### DataLoader로 학습용 데이터 준비하기
 
-Dataset의 feature와 label을 미니배치로 전달하고, 학습 epoch마다 데이터를 섞어서 과적합을 피하기위해<br.
+Dataset의 feature와 label을 미니배치로 전달하고, 학습 epoch마다 데이터를 섞어서 과적합을 피하기위한<br>
 추상화한 순회 가능한 객체
 
 ```python
