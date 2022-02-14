@@ -79,7 +79,7 @@ print(accuracy(preds, yb))
 #루프 구현
 
 lr = 0.5  # 학습률(learning rate)
-epochs = 2  # 훈련에 사용할 에폭(epoch) 수
+epochs = 5  # 훈련에 사용할 에폭(epoch) 수
 
 for epoch in range(epochs):
     for i in range((n - 1) // bs + 1):
