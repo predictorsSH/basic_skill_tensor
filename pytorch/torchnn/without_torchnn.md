@@ -77,7 +77,7 @@ preds 텐서는 텐서 값 이외에도 grad_fn을 담고 있다. 이 함수를 
 손실함수를 사용하기 위한 음의 로그 우도를 구현(negative log-likelihood) 하고  손실을 체크
 ```python
 def nll(input, target):
-return -input[range(target.shape[0]), target].mean()
+    return -input[range(target.shape[0]), target].mean()
 
 loss_func = nll
 
@@ -103,7 +103,8 @@ lr = 0.5  # 학습률(learning rate)
 epochs = 2  # 훈련에 사용할 에폭(epoch) 수
 
 for epoch in range(epochs):
-    for i in range((n - 1) // bs + 1):
+    #n=데이터 개수, bs는 배치크기
+    for i in range((n - 1) // bs + 1): 
         #         set_trace()
         start_i = i * bs
         end_i = start_i + bs
